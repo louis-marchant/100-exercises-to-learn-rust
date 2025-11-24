@@ -8,9 +8,11 @@ This repository is a Rust course ("100 Exercises to Learn Rust"). The user is a 
 
 When the user asks to check their solution, you should do the following:
 
-1. Retrieve the solution from the solutions branch.
-2. Analyse the task description, as well as the proposed solution.
-3. Provide feedback on idiomatic usage of Rust, correctness, and potential improvements.
+1. Identify the exercise being worked on from the user's context or file path.
+2. Find the corresponding exercise documentation in the `book/src/` directory. The documentation follows the pattern: `book/src/<chapter>/<exercise>.md` (e.g., `book/src/02_basic_calculator/01_integers.md` for the exercise in `exercises/02_basic_calculator/01_integers/`).
+3. Retrieve the solution from the solutions branch.
+4. Analyse the task description (from the exercise documentation), as well as the proposed solution.
+5. Provide feedback on idiomatic usage of Rust, correctness, and potential improvements.
 
 ### 2. Guiding the Learner
 
